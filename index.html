@@ -7,6 +7,94 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <section class="hero">
+        <div class="hero__aside">
+            <div class="hero__aside__logo">
+                <img src="./dist/images/netflix_filmes.png" alt="O Mundo Depois de Nós">
+            </div>
+            <p>
+                <span class="title">
+                   <b>2023 | Classificação etária:16 | 2h 21min | Drama</b> 
+                </span>
+            </p>
+            <p class="text">
+                As férias de uma família numa casa luxuosa sofrem uma reviravolta quando um ciberataque afeta todos os dispositivos e duas pessoas estranhas batem à porta.
+            </p> 
+            <p class='text'>
+                <strong class="title">Estrelando:</strong> Julia Roberts, Mahershala Ali, Ethan Hawke.
+                <br>
+                <br>
+                <a href="#" class="text">Assine agora</a>
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="elenco" class="shows__tabs__button shows__tabs__button--is-active">
+                Elenco
+
+            </button>
+            <button data-tab-button="imagens" class="shows__tabs__button">
+                Imagens
+
+            </button>
+            <button data-tab-button="trailer" class="shows__tabs__button">
+                Trailer
+            </button>
+        </nav>
+        <ul data-tab-id="elenco" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/julia.jpg" alt="spidey">
+                <h3 class="text">Julia Roberts</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/ali.jpg" alt="spidey">
+                <h3 class="text">Mahershala Ali</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/hawke.jpg" alt="spidey">
+                <h3 class="text">Ethan Hawke</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/myha.jpg" alt="spidey">
+                <h3 class="text">Myha'la Herrold</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/farra.jpg" alt="spidey">
+                <h3 class="text">Farrah Mackenzie</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/elenco/charlie.jpg" alt="spidey">
+                <h3 class="text">Charlie Evans</h3>
+            </li>
+        </ul>
+        <ul data-tab-id="imagens" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/imagens/1.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/imagens/2.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/imagens/3.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/imagens/4.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/imagens/5.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/imagens/6.jpg" alt="spidey">
+            </li>
+        </ul>
+        <ul data-tab-id="trailer" class="shows__list">
+            <li class="shows__list__item__video">
+                <iframe width="1900" height="1069" src="https://www.youtube.com/embed/X6UBHGb0OA0" title="O Mundo Depois de Nós | Trailer oficial | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </li>
+        </ul>
+    </section>
+    <script src="./dist/js/main.js"></script>
     
 </body>
 </html>

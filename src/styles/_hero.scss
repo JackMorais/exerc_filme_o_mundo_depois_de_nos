@@ -1,0 +1,36 @@
+@use 'variaveis';
+
+.hero{
+    padding: 5.6vw;
+    min-height: 90vh;
+    background-image: url(../images/o_mund.jpeg);
+    text-align: center;
+    background-size: cover;
+
+    &__aside
+    {
+        max-width: 840px;
+
+        &__logo{
+            
+            max-width: 320px;
+            margin-top: 130px;
+        }
+    }
+    p{
+        margin-top: 20px;
+        a{
+            margin: 10px;
+            text-decoration: none;
+            background-color: variaveis.$corBotaoPrimario;
+            border-radius: 4px;
+            padding: 8px;
+            color: #fff;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+    }
+    
+
+        
+}
